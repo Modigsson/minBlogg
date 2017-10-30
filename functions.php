@@ -1,11 +1,8 @@
 <?php
-  declare(strict_types=1);
 
+  require __DIR__.'/data.php';
 
-  include('/data.php');
-
-  function sortByDate($posts, $posts1) {
+  function sortByDate(array $posts, array $posts1): bool {
       return strtotime($posts['date']) <  strtotime($posts1['date']);
      }
-     usort($posts, 'sortByDate')
- ?>
+     usort($posts, 'sortByDate');

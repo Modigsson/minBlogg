@@ -21,7 +21,7 @@
   <body>
 
 
-
+    <?php require __DIR__.'/functions.php'; ?>
 
 
     <!-- Page Content -->
