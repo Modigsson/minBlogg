@@ -1,2 +1,1 @@
-# minBlogg
-Simple blog about movies made with bootstrap
+Simple blog about movies.
