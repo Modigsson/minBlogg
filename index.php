@@ -21,7 +21,11 @@
   <body>
 
 
-    <?php require __DIR__.'/functions.php'; ?>
+    <?php
+     require(__DIR__ . '/data.php');
+     require(__DIR__ . '/functions.php');
+     ?>
+
 
 
     <!-- Page Content -->
@@ -37,7 +41,7 @@
           </h1>
 
 
-          <?php include('data.php');
+          <?php
             foreach ($posts as $post):
            ?>
 
