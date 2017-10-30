@@ -52,6 +52,7 @@
               <h2 class="card-title"><?= $post['title']?> <small>by <?= $post['author']['name']?></small></h2>
 
               <p class="card-text"><?= $post['content']?></p>
+              <a id="likes"><?php echo $post['likes']; ?></a>
             </div>
 
             <div class="card-footer text-muted">
