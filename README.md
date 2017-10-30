@@ -16,4 +16,6 @@
 
         <li>Clone this repository (locally) or download as a zip to your desktop</li>
         <li>Launch MAMP or similar local web server on your computer with the right pathing</li>        
-        <li>Open up the browser and enter localhost</li>        
+        <li>Open up the browser and enter localhost</li>
+
+    <h3>Tested by Beatrice Svensson and John Strömblom</h3>
